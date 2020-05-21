@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Rios | Portfolio</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="I'm a digital animator and interactive technology engineer,always learning different softwares and skills to solve many problems. I'm a natural learner and problem solver."> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <!-- HAMBURGUER MENU -->
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+          <div class="bar" id="bar1"></div>  
+          <div class="bar" id="bar2"></div>  
+          <div class="bar" id="bar3"></div>  
+        </div>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+    <!-- HEADER -->
+    <div class="container">
+        <header class="header" id="home">
+            <figure class="logo">
+                <img src="images/logo.png" alt="iritaca logo image">
+            </figure>
+            <nav>
+                <ul class="nav-links" id="nav" onclick="onClickMenu()">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contactH">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- HERO -->
+     <div class="container">
+        <div class="hero">  
+            <div class="hero_info">
+                <div class="hero_img">
+                        <img src="images/me.jpg" alt="Isaac Rios">
+                </div>
+                <div class="hero_details">
+                    <h1>Isaac Rios</h1>
+                    <p>Digital Animatior and Interactive Technology Engineer</p>
+                </div>
+            </div>
+            <div class="skills">
+                <ul class="skills_details">
+                    <li><a href="" >3D</a>
+                            <ul class="skills_type">
+                                <li> <a>Houdini</a></li>    
+                                <li> <a>After Effects </a></li>    
+                                <li> <a> Nuke </a></li>    
+                            </ul>
+                        </li>
+                    <li><a href="" >Code</a>
+                            <ul class="skills_type">
+                                <li> <a>HTML</a></li>
+                                <li> <a>CSS</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     
+    <!-- ABOUT ME -->
+     <div class="container">
+        <article class="aboutMe" id="about">
+            <h2>About me</h2>
+            <p class="aboutMe_date"><small><strong>Date :</strong> 21 May 2020</small></p>
+            <p class="aboutMe_description">
+                I've been in love with <strong>technology</strong>, <strong>art</strong> and <strong>music</strong>, 
+                so I decided to explore many fields. It is a little hard to choose only one path... but I've been
+                learning between diffent softwares and skills to solve many problems. And after exploring and learning I realized that I'm 
+                a natural learner and problem solver.</p>
+                <figure class="video_flex">
+                    <iframe class="videoReel" src="https://player.vimeo.com/video/395094381" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </figure>
+        </article>
+    </div>
+    <!-- PROJECTS -->
+    <h2 id="portfolio">Some other cool projects :</h2>
+    <div class="container">
+         <section class="portfolio_list">
+            <article class="project">
+                <figure class="project_image">
+                    <img src="images/sphere2.jpg" alt="Houdini Attributes">
+                </figure>
+                <div class="project_details">
+                    <h3 class="project_title">Attribute VOP</h3>
+                    <p class="project_description">A study case about Attribute VOP inside Houdini.</p>
+                    <a href="https://vimeo.com/373465885" alt="Attributes in Houdini Video" class="project_url" target="_blank">Video</a>
+                </div>
+            </article>
+            <article class="project">
+                <figure class="project_image">
+                    <img src="images/sand.jpg" alt="grains root dragon">
+                </figure>
+                <div class="project_details">
+                    <h3 class="project_title">Egyptian Sand Dragon</h3>
+                    <p class="project_description">This was a really huge project, I learn how to create the growing roots,
+                        and how to interact with grains.</p>
+                    <a href="https://vimeo.com/317253486" alt="sand and roots inside Houdini video" class="project_url" target="_blank">Video</a>
+                </div>
+            </article>
+            <article class="project">
+                <figure class="project_image">
+                    <img src="images/06.jpg" alt="electriri lightning">
+                </figure>
+                <div class="project_details">
+                    <h3 class="project_title">Electriri</h3>
+                    <p class="project_description">I got inspired by this little electric robot from Megaman 11,
+                        I used different techniques to achieve this project.</p>
+                    <a href="https://vimeo.com/377199115" alt="Electriri, fanart Megaman 11" class="project_url" target="_blank">Video</a>
+                </div>
+            </article>
+            <article class="project">
+                <figure class="project_image">
+                    <img src="images/cards.jpg" alt="Card structure">
+                </figure>
+                <div class="project_details">
+                    <h3 class="project_title">Procedural Card Structure</h3>
+                    <p class="project_description">The first time I learn about how to create procedural systems, 
+                        I felt in love and I knew that I could use it for different things. So I decided to 
+                        create a Procedural card structure, to simulate how digital physics might work, 
+                        this system was inspired by Bryan Berg.</p>
+                    <a href="https://vimeo.com/326703338" alt="Procedural card structure video" class="project_url" target="_blank">Video</a>
+                </div>
+            </article>
+        </section>
+    </div> 
+    <!-- CONTACT -->
+    <div class="container">
+         <section class="contact" id="contactH">
+            <div class="email">
+                <h3>Would you like to contact me :</h3>
+                <p>jirb1213@live.com.mx</p>
+            </div>
+            <div class="social">
+                <h3>Visit more of my work:</h3>
+                <div class="social_spacing">
+                    <a href="https://www.behance.net/Itak" alt="Behance"  target="_blank" class="social-link icon-behance"></a>
+                    <a href="https://vimeo.com/iritaca"  alt="Vimeo" target="_blank" class="social-link icon-vimeo"></a>
+                    <a href="https://www.instagram.com/iritaca/" alt="Instagram" target="_blank" class="social-link icon-instagram"></a>
+                    <a href="https://github.com/iritaca" alt="GitHub" target="_blank" class="social-link icon-github"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- FOOTER -->
+    <div class="container">
+        <footer class="footer" id="contact">
+            <p>Website developed by iritaca, Isaac Rios 2020 <img src="images/logo.png" alt="Logo Image" width="60px"></p>
+        </footer>
+    </div>
+</body>
+</html>
